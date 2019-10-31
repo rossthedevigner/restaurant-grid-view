@@ -1,0 +1,61 @@
+{
+  "name": "bottlerocket",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.3.0",
+    "eslint-plugin-react": "^7.14.3",
+    "google-maps-react": "^2.0.2",
+    "ky": "^0.13.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-async": "^8.0.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-spring": "^8.0.27",
+    "react-transition-group": "^4.3.0",
+    "rebass": "^4.0.5",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.3.2",
+    "styled-components-grid": "^2.2.2",
+    "styled-icons": "^8.4.1",
+    "styled-normalize": "^8.0.6",
+    "styled-theming": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
